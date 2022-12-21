@@ -9,7 +9,7 @@ public class Relation implements Serializable
     String nom;
     Vector liste_colonne;
     Vector donnees;
-
+    
     public Relation(String nom, Vector liste_colonne, Vector donnees) {
         this.nom = nom;
         this.liste_colonne = liste_colonne;
